@@ -1,5 +1,7 @@
 # pgxstore
 
+_(fork note: no changes have been made here, this is purely to lock the dependency)_
+
 A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).
 
 Forked from [antonlindstrom/pgstore](https://github.com/antonlindstrom/pgstore) and modified to use [jackc/pgx](https://github.com/jackc/pgx) instead of database/sql.
@@ -13,11 +15,11 @@ From the [pgx docs](https://github.com/jackc/pgx#choosing-between-the-pgx-and-da
 
 ## Installation
 
-    go get github.com/yi-jiayu/pgxstore
+    go get github.com/shellhazard/pgxstore
 
 ## Documentation
 
-Available on [godoc.org](http://www.godoc.org/github.com/yi-jiayu/pgxstore).
+Available on [godoc.org](http://www.godoc.org/github.com/shellhazard/pgxstore).
 
 See http://www.gorillatoolkit.org/pkg/sessions for full documentation on underlying interface.
 
@@ -31,7 +33,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yi-jiayu/pgxstore"
+	"github.com/shellhazard/pgxstore"
 )
 
 // ExampleHandler is an example that displays the usage of PGStore.

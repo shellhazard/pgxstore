@@ -1,4 +1,4 @@
-module github.com/yi-jiayu/pgxstore
+module github.com/shellhazard/pgxstore
 
 go 1.15
 
